@@ -16,11 +16,11 @@ function App() {
   }, [items]);
   return (
     <div>
-      {started === false ? (
+      {/* {started === false ? (
         <Main started={setStarted} />
-      ) : (
-        <ToDo items={items} />
-      )}
+      ) : ( */}
+      <ToDo items={items} />
+      {/* )} */}
     </div>
   );
 }
