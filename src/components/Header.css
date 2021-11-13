@@ -1,0 +1,43 @@
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 0 50px;
+}
+
+.headerLeft {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+header h1 {
+  position: absolute;
+  left: 50%;
+  transform: translate(-50%);
+  font-size: 64px;
+  color: rgba(94, 94, 94, 1);
+}
+
+.logOut {
+  color: rgba(180, 122, 234, 1);
+  font-weight: 700;
+  cursor: pointer;
+}
+
+header h3 {
+  margin: 0;
+  color: rgba(94, 94, 94, 1);
+  font-size: 24px;
+}
+
+.tasks {
+  color: rgba(239, 97, 97, 1);
+  font-weight: 500;
+}
+
+header img {
+  width: 74px;
+  height: 74px;
+  border-radius: 50%;
+}
